@@ -1,0 +1,19 @@
+first_name =input("Enter first name: ")
+last_name =input("Enter last name: ")
+section =input("Enter section: ")
+favorite_subject =input("Enter favorite subject: ")
+
+full_name = f"{first_name} {last_name}"
+
+name_title = full_name.title()
+name_upper = full_name.upper()
+section_upper = section.upper()
+subject_title = favorite_subject.title()
+char_count = len(full_name)
+
+print("\nFormatted Output:")
+print(f"Name: {name_title}")
+print(f"Name Code: {name_upper}")
+print(f"Section: {section_upper}")
+print(f"Favorite Subject: {subject_title}")
+print(f"Character Count: {char_count}")
